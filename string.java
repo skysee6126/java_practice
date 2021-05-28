@@ -18,9 +18,17 @@ public class StingExam {
     if (str3 == str4)
       System.out.println("str3, str4 have same reference");
 
+    if( str1.equals(str2) ){
+            System.out.println("str1 and str2 have same value");
+        }
+        else{
+            System.out.println("str1 and str2 have different value each other");
+        }
 
     System.out.println(str1);
     System.out.println(str1.substring(3));
     System.out.println(str1);
+
+    
   }
 }
