@@ -1,9 +1,7 @@
-package java;
-
 public class StingExam {
   public static void main(String[] args) {
     // str1 & str2 have same instance(refer)
-    String strl = "hello";
+    String str1 = "hello";
     String str2 = "hello";
 
     String str3 = new String("hello");
