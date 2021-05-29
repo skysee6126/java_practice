@@ -1,5 +1,5 @@
 public class CarTest {
-  public static void main(String[] args) {
+  public static void main(String[] args) { // 리턴타입, 메소드명(매개변수 등) {구현}
     Car c1 = new Car();
     Car c2 = new Car();
 
