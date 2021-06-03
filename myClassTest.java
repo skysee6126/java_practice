@@ -9,5 +9,9 @@ public class myClassTest {
     int value2 = myclass.method5(15);
     System.out.println(value2);
 
+    System.out.println(myclass.plus(4, 5));
+    System.out.println(myclass.plus(4, 5, 5));
+    System.out.println(myclass.plus("Hello", "world"));
+
   }
 }
