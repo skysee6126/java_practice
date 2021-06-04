@@ -2,6 +2,8 @@ public class CarTest {
   public static void main(String[] args) { // 리턴타입, 메소드명(매개변수 등) {구현}
     Car c1 = new Car("Firecar");
     Car c2 = new Car("Ambulance");
+    Car c3 = new Car("Police car", 1111);
+    Car c4 = new Car();
 
     c1.name = "police car";
     c1.number = 1234;
