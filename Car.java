@@ -17,4 +17,9 @@ public class Car {
     this.name = name;
     this.number = number;
   }
+
+  public void run() {
+    System.out.println("Running");
+  }
+
 }
